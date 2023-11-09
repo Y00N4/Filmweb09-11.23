@@ -59,9 +59,9 @@ public:
 
 int main()
 {    
-    Movie movie1("Film 1", 1999, "Andrzej Duda", 0);
-    Movie movie2("Film 2", 1222, "Jan Matejko", 0);
-    Movie movie3("Film 3", 1410, "Mikolaj Kopernik", 0);
+    Movie movie1("zycie jako wielki Kopernik", 1542, "Mikołaj Kopernik", 0);
+    Movie movie2("Moje wlasne obrazy - opinia", 1856, "Jan Matejko", 0);
+    Movie movie3("Bitwa pod Grundwaldem", 1410, "Wladyslaw Jagiello", 0);
     Movie movies[3] = {movie1, movie2, movie3};
     
     int selectedMovie = 0;
@@ -98,5 +98,5 @@ int main()
         
     }
 
-    cout<<"Dzieki za uzycie mojego programu";
+    cout<<"Dziekuję za uzycie mojego programu";
 }
