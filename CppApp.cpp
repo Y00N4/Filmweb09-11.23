@@ -91,12 +91,14 @@ int main()
         }
         if(selectedAction == 2)
         {
-            cout<<"Napisz komentarz: ";
+            cout<<"Napisz komentarz: ";    
             cin>>comment;
+            cin.ignore();
+            getline(cin, comment);
             movies[selectedMovie-1].AddComment(comment);
         }
         
     }
 
-    cout<<"Dziekuję za uzycie mojego programu";
+    cout<<"Dziekuje za uzycie mojego programu";
 }
